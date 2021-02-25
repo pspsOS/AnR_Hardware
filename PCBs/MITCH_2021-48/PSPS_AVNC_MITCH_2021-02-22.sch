@@ -10372,6 +10372,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="C5-0C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1X2" device="-3.5MM" package3d_urn="urn:adsk.eagle:package:6240635/1"/>
+<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -10512,6 +10513,10 @@ Source: http://www.osram.convergy.de/</description>
 </instance>
 <instance part="GND21" gate="1" x="27.94" y="-96.52" smashed="yes">
 <attribute name="VALUE" x="25.4" y="-99.06" size="1.778" layer="96"/>
+</instance>
+<instance part="R9" gate="G$1" x="68.58" y="-68.58" smashed="yes">
+<attribute name="NAME" x="64.77" y="-67.0814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="64.77" y="-71.882" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10723,6 +10728,11 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="C5-0C1" gate="G$1" pin="2"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="-68.58" x2="76.2" y2="-68.58" width="0.1524" layer="91"/>
+<label x="76.2" y="-68.58" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
@@ -10740,6 +10750,11 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="U0-C" gate="G$1" pin="PA12"/>
 <wire x1="55.88" y1="-17.78" x2="58.42" y2="-17.78" width="0.1524" layer="91"/>
 <label x="58.42" y="-17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="-68.58" x2="60.96" y2="-68.58" width="0.1524" layer="91"/>
+<label x="60.96" y="-68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BUZZER_OUT" class="0">
