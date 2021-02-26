@@ -8624,18 +8624,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/A-1JB.pdf"&gt
 <text x="-3.556" y="5.602" size="1.6764" layer="25" font="vector">&gt;NAME</text>
 <text x="-4.318" y="-4.55" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="1X2-3.5MM" urn="urn:adsk.eagle:footprint:6239989/1" library_version="2">
-<wire x1="-3.4" y1="3.4" x2="-3.4" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-2.2" x2="-3.4" y2="-3.6" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-3.6" x2="3.6" y2="-3.6" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-3.6" x2="3.6" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-2.2" x2="3.6" y2="3.4" width="0.127" layer="21"/>
-<wire x1="3.6" y1="3.4" x2="-3.4" y2="3.4" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-2.2" x2="3.6" y2="-2.2" width="0.127" layer="21"/>
-<pad name="1" x="1.8" y="0" drill="1" diameter="2.1844"/>
-<pad name="2" x="-1.7" y="0" drill="1" diameter="2.1844"/>
-<text x="3" y="5" size="1.27" layer="25" rot="R180">&gt;NAME</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="CR1220-SMD" urn="urn:adsk.eagle:package:6240665/1" type="box" library_version="2">
@@ -8646,11 +8634,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/A-1JB.pdf"&gt
 <package3d name="CR1220-THM" urn="urn:adsk.eagle:package:6240666/1" type="box" library_version="2">
 <packageinstances>
 <packageinstance name="CR1220-THM"/>
-</packageinstances>
-</package3d>
-<package3d name="1X2-3.5MM" urn="urn:adsk.eagle:package:6240635/1" type="box" library_version="2">
-<packageinstances>
-<packageinstance name="1X2-3.5MM"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -8667,14 +8650,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/A-1JB.pdf"&gt
 <pin name="+" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="-" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="+1" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="1X2" urn="urn:adsk.eagle:symbol:6239476/1" library_version="2">
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<pin name="1" x="-5.08" y="2.54" visible="pin" length="middle" direction="pas"/>
-<pin name="2" x="-5.08" y="0" visible="pin" length="middle" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8709,27 +8684,6 @@ Note the THM package has the ground pads on both sides of the PCB so that the ma
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:6240666/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1X2" urn="urn:adsk.eagle:component:6240975/1" prefix="J" library_version="2">
-<description>3.5mm Terminal block
-&lt;p&gt;http://www.ladyada.net/library/pcb/eaglelibrary.html&lt;p&gt;</description>
-<gates>
-<gate name="G$1" symbol="1X2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-3.5MM" package="1X2-3.5MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240635/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10371,7 +10325,6 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C5-0C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1X2" device="-3.5MM" package3d_urn="urn:adsk.eagle:package:6240635/1"/>
 <part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
@@ -11282,7 +11235,6 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND20" gate="1" x="182.88" y="30.48" smashed="yes">
 <attribute name="VALUE" x="180.34" y="27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="J2" gate="G$1" x="91.44" y="50.8" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -11379,7 +11331,6 @@ Source: http://www.osram.convergy.de/</description>
 <label x="96.52" y="165.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
 <label x="83.82" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11488,9 +11439,13 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
 <label x="83.82" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1-S" gate="G$1" pin="RESV.GND"/>
+<wire x1="-66.04" y1="147.32" x2="-66.04" y2="149.86" width="0.1524" layer="91"/>
+<label x="-66.04" y="149.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="MISO-1V8" class="0">
