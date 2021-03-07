@@ -9,7 +9,7 @@
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,18 +22,18 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -498,7 +498,7 @@ MEAS</text>
 <wire x1="-12.3825" y1="0" x2="-12.3825" y2="0.3175" width="0.2032" layer="21"/>
 <wire x1="-12.3825" y1="0.9525" x2="-12.3825" y2="1.27" width="0.2032" layer="22"/>
 <wire x1="-12.3825" y1="0" x2="-12.3825" y2="0.3175" width="0.2032" layer="22"/>
-<text x="6.5" y="-29.714" size="0.6096" layer="25" rot="R180" align="center">ALA normal to PCB</text>
+<text x="6.5" y="-29.714" size="0.6096" layer="25" rot="R180" align="center">ALA normal+ to PCB</text>
 <text x="1.3335" y="-14.474" size="0.8128" layer="25" rot="R180" align="center">IMU</text>
 <text x="7.366" y="-9.8365" size="0.762" layer="25" rot="R180" align="center">BMP</text>
 <text x="-5.715" y="14.9225" size="0.762" layer="25" rot="R180" align="center">Storage</text>
@@ -2224,8 +2224,8 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="-12.573" y1="-3.3655" x2="-12.573" y2="3.3655" width="0.127" layer="21"/>
 <text x="-3.048" y="3.556" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.921" y="-4.826" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-5.08" y="-4.826" size="1.27" layer="21">1</text>
-<text x="-5.08" y="3.556" size="1.27" layer="21">2</text>
+<text x="-5.715" y="-2.286" size="1.27" layer="21">1</text>
+<text x="-5.588" y="1.27" size="1.27" layer="21">2</text>
 <rectangle x1="-8.6868" y1="1.7907" x2="-7.112" y2="2.0193" layer="29"/>
 <rectangle x1="-7.2263" y1="0.3302" x2="-6.9977" y2="1.905" layer="29"/>
 <rectangle x1="-7.2263" y1="-1.905" x2="-6.9977" y2="-0.3302" layer="29"/>
@@ -3959,18 +3959,6 @@ design rules under a new name.</description>
 <approved hash="19,16,c0fcc6fadac4dcc2"/>
 <approved hash="19,16,bd2fa0e2700c6dc1"/>
 <approved hash="19,1,760ba84c25d7cda9"/>
-<approved hash="4,3,f36bf65bb419b129"/>
-<approved hash="4,4,f36bf65bb419b129"/>
-<approved hash="4,5,f36bf65bb419b129"/>
-<approved hash="4,6,f36bf65bb419b129"/>
-<approved hash="4,7,f36bf65bb419b129"/>
-<approved hash="4,8,f36bf65bb419b129"/>
-<approved hash="4,9,f36bf65bb419b129"/>
-<approved hash="4,10,f36bf65bb419b129"/>
-<approved hash="4,11,f36bf65bb419b129"/>
-<approved hash="4,12,f36bf65bb419b129"/>
-<approved hash="4,13,f36bf65bb419b129"/>
-<approved hash="4,14,f36bf65bb419b129"/>
 </errors>
 </board>
 </drawing>

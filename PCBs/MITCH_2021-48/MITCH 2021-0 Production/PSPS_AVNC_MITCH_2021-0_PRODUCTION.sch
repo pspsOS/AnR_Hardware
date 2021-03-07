@@ -10254,8 +10254,8 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-12.573" y1="-3.3655" x2="-12.573" y2="3.3655" width="0.127" layer="21"/>
 <text x="-3.048" y="3.556" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.921" y="-4.826" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-5.08" y="-4.826" size="1.27" layer="21">1</text>
-<text x="-5.08" y="3.556" size="1.27" layer="21">2</text>
+<text x="-5.715" y="-2.286" size="1.27" layer="21">1</text>
+<text x="-5.588" y="1.27" size="1.27" layer="21">2</text>
 <rectangle x1="-8.6868" y1="1.7907" x2="-7.112" y2="2.0193" layer="29"/>
 <rectangle x1="-7.2263" y1="0.3302" x2="-6.9977" y2="1.905" layer="29"/>
 <rectangle x1="-7.2263" y1="-1.905" x2="-6.9977" y2="-0.3302" layer="29"/>
@@ -10461,7 +10461,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1-0C" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="U1-S" library="Computer2" library_urn="urn:adsk.eagle:library:23762960" deviceset="ICM-20948" device="" package3d_urn="urn:adsk.eagle:package:12798673/2"/>
 <part name="U11-S" library="Computer2" library_urn="urn:adsk.eagle:library:23762960" deviceset="SN74LV1T34" device="" package3d_urn="urn:adsk.eagle:package:12825339/1"/>
 <part name="U12-S" library="Computer2" library_urn="urn:adsk.eagle:library:23762960" deviceset="SN74LV1T34" device="" package3d_urn="urn:adsk.eagle:package:12825339/1"/>

@@ -10726,6 +10726,11 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="119.38" y1="-25.4" x2="116.84" y2="-25.4" width="0.1524" layer="91"/>
 <label x="116.84" y="-25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="6"/>
+<wire x1="256.54" y1="5.08" x2="259.08" y2="5.08" width="0.1524" layer="91"/>
+<label x="259.08" y="5.08" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SPI2_MISO" class="0">
 <segment>
@@ -10738,6 +10743,11 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="119.38" y1="-15.24" x2="116.84" y2="-15.24" width="0.1524" layer="91"/>
 <label x="116.84" y="-15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="256.54" y1="7.62" x2="259.08" y2="7.62" width="0.1524" layer="91"/>
+<label x="259.08" y="7.62" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SPI2_MOSI" class="0">
 <segment>
@@ -10749,6 +10759,11 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="U$2" gate="G$1" pin="SI/IO0"/>
 <wire x1="119.38" y1="-20.32" x2="116.84" y2="-20.32" width="0.1524" layer="91"/>
 <label x="116.84" y="-20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="10.16" x2="259.08" y2="10.16" width="0.1524" layer="91"/>
+<label x="259.08" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -10927,6 +10942,11 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="96.52" y1="15.24" x2="88.9" y2="15.24" width="0.1524" layer="91"/>
 <label x="88.9" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="10"/>
+<wire x1="256.54" y1="0" x2="259.08" y2="0" width="0.1524" layer="91"/>
+<label x="259.08" y="0" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BUTTON_IN" class="0">
 <segment>
@@ -10938,6 +10958,11 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="-68.58" x2="60.96" y2="-68.58" width="0.1524" layer="91"/>
 <label x="60.96" y="-68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="233.68" y1="7.62" x2="231.14" y2="7.62" width="0.1524" layer="91"/>
+<label x="231.14" y="7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BUZZER_OUT" class="0">
@@ -10962,6 +10987,11 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="96.52" y1="12.7" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
 <label x="88.9" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="12"/>
+<wire x1="256.54" y1="-2.54" x2="259.08" y2="-2.54" width="0.1524" layer="91"/>
+<label x="259.08" y="-2.54" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SWO" class="0">
 <segment>
@@ -10972,6 +11002,11 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <wire x1="96.52" y1="10.16" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
 <label x="88.9" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="14"/>
+<wire x1="256.54" y1="-5.08" x2="259.08" y2="-5.08" width="0.1524" layer="91"/>
+<label x="259.08" y="-5.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
@@ -11036,6 +11071,11 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="C5-0C1" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="-86.36" x2="27.94" y2="-83.82" width="0.1524" layer="91"/>
 <label x="27.94" y="-83.82" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="8"/>
+<wire x1="256.54" y1="2.54" x2="259.08" y2="2.54" width="0.1524" layer="91"/>
+<label x="259.08" y="2.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VREF+" class="0">
@@ -11118,6 +11158,11 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="U$2" gate="G$1" pin="!CS!"/>
 <wire x1="119.38" y1="-12.7" x2="116.84" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="10.16" x2="231.14" y2="10.16" width="0.1524" layer="91"/>
+<label x="231.14" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11293,60 +11338,6 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="233.68" y1="5.08" x2="231.14" y2="5.08" width="0.1524" layer="91"/>
 <label x="231.14" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="10.16" x2="231.14" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="233.68" y1="7.62" x2="231.14" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="14"/>
-<wire x1="256.54" y1="-5.08" x2="259.08" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="12"/>
-<wire x1="256.54" y1="-2.54" x2="259.08" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="10"/>
-<wire x1="256.54" y1="0" x2="259.08" y2="0" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="8"/>
-<wire x1="256.54" y1="2.54" x2="259.08" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="6"/>
-<wire x1="256.54" y1="5.08" x2="259.08" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="256.54" y1="7.62" x2="259.08" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="10.16" x2="259.08" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
