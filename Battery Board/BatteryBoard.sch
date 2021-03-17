@@ -11109,6 +11109,85 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Connect">
+<packages>
+<package name="JSTPH2" urn="urn:adsk.eagle:footprint:15955147/1">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.2032" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.2032" layer="21"/>
+<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-2.2225" y="1.9685" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-2.2225" y="1.27" size="0.4064" layer="27" ratio="10">&gt;Value</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="JSTPH2" urn="urn:adsk.eagle:package:15955189/2" type="model">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<packageinstances>
+<packageinstance name="JSTPH2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="JSTPH2">
+<pin name="NC2" x="5.08" y="10.16" length="middle" rot="R270"/>
+<pin name="NC1" x="-5.08" y="10.16" length="middle" rot="R270"/>
+<pin name="1" x="-2.54" y="-5.08" length="middle" rot="R90"/>
+<pin name="2" x="2.54" y="-5.08" length="middle" rot="R90"/>
+<wire x1="-7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
+<text x="7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JSTPH2">
+<gates>
+<gate name="G$1" symbol="JSTPH2" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="JSTPH2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="NC1" pad="NC1"/>
+<connect gate="G$1" pin="NC2" pad="NC2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15955189/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11173,6 +11252,7 @@ Source: www.kingbright.com</description>
 <part name="J3" library="MPTC-02-16-02-6.30-XX-X-V" deviceset="MPTC-02-16-02-6.30-XX-X-V" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J4" library="Connect" deviceset="JSTPH2" device="" package3d_urn="urn:adsk.eagle:package:15955189/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -11372,6 +11452,10 @@ Source: www.kingbright.com</description>
 <instance part="GND15" gate="1" x="-10.16" y="119.38" smashed="yes">
 <attribute name="VALUE" x="-12.7" y="116.84" size="1.778" layer="96"/>
 </instance>
+<instance part="J4" gate="G$1" x="-58.42" y="27.94" smashed="yes">
+<attribute name="NAME" x="-50.8" y="35.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-50.8" y="38.1" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11523,6 +11607,11 @@ Source: www.kingbright.com</description>
 <wire x1="-10.16" y1="127" x2="-10.16" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="22.86" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
+<label x="-60.96" y="20.32" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="VDDA" class="0">
 <segment>
@@ -11607,6 +11696,11 @@ Source: www.kingbright.com</description>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="-48.26" y1="60.96" x2="-50.8" y2="60.96" width="0.1524" layer="91"/>
 <label x="-50.8" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="-55.88" y1="22.86" x2="-55.88" y2="20.32" width="0.1524" layer="91"/>
+<label x="-55.88" y="20.32" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">

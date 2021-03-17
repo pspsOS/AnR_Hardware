@@ -11343,7 +11343,7 @@ Source: www.kingbright.com</description>
 <wire x1="114.3" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="L1-SW" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="SW"/>
 <wire x1="73.66" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>

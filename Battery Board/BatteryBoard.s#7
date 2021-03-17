@@ -10983,7 +10983,7 @@ Source: www.kingbright.com</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="BOOT0" class="0">
 <segment>
 <pinref part="U0" gate="G$1" pin="BOOT0"/>
 <pinref part="R0" gate="G$1" pin="1"/>
