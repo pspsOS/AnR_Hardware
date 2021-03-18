@@ -1,0 +1,68 @@
+Partlist
+
+Exported from PSPS_AVNC_MITCH_2021-0_PRODUCTION.brd at 3/18/2021 6:43 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value               Package                      Library             Position (mil)        Orientation
+
+C-2S     4.7uF               C0805                        resistor            (201.77165 -472.44094) R90
+C1-0C    4.7uF               C0805                        resistor            (236.22047 -142.71654) R90
+C1-0S    1uF                 C0805                        resistor            (-437.99213 -472.44094) R270
+C1-1S    0.1uF               C0805                        resistor            (201.77165 -634.84252) R270
+C1-4S    1nF                 C0805                        resistor            (452.75591 -634.84252) R270
+C1-5S    4.7uF               C0805                        resistor            (-201.77165 -634.84252) R270
+C2-0C    0.1uF               C0805                        resistor            (-233.75984 -9.84252) R90
+C2-0S    100uF               C0805                        resistor            (-201.77165 -472.44094) R270
+C2-1S    0.1uF               C0805                        resistor            (118.11024 -472.44094) R90
+C2-5S    22uF                C0805                        resistor            (-437.99213 -634.84252) R270
+C3-0C    0.1uF               C0805                        resistor            (319.88189 -142.71654) R90
+C3-1S    0.1uF               C0805                        resistor            (-118.11024 -472.44094) R270
+C3-5S    0.1uF               C0805                        resistor            (-437.99213 -797.24409) R270
+C4-0C    0.1uF               C0805                        resistor            (142.71654 255.90551) R90
+C5-0C    0.1uF               C0805                        resistor            (-108.26772 255.90551) R90
+C6-0C    0.1uF               C0805                        resistor            (226.37795 255.90551) R90
+FB-0C    MMZ2012Y152B        BEADC2012X105N               Computer2           (-317.42126 -9.84252) R90
+J-AE3S   A-1JB               A1JB                         SamacSys_Parts      (-193.30709 -1251.5748) R90
+J-B                          CR1220-SMD                   adafruit            (0 -127.95276)        MR0
+J-IB     TFM-107-01-XXX-D-DS TFM-107-01-XXX-D-DS          TFM-107-01-XXX-D-DS (0 775)               R0
+LD-LSC                       CHIPLED_0805                 adafruit            (-59.05512 -1259.84252) R180
+LD1                          CHIPLED_0805                 adafruit            (-442.91339 305.11811) R0
+LD2                          CHIPLED_0805                 adafruit            (-359.25197 305.11811) R0
+LD3                          CHIPLED_0805                 adafruit            (-275.59055 305.11811) R0
+LD4                          CHIPLED_0805                 adafruit            (-191.92913 305.11811) R0
+LS-C     ASI09N27M-05Q       ASI09N27M-05Q                Computer2           (-177.16535 -935.03937) R0
+Q-LSC    MMBTA06Q-7-F        SOT23                        Computer2           (59.05512 -1259.84252) R90
+R-1C     10k                 R0805                        resistor            (59.05512 255.90551)  R90
+R-LD1    TBD                 R0805                        resistor            (-442.91339 157.48031) R90
+R-LD2    TBD                 R0805                        resistor            (-359.25197 157.48031) R90
+R-LD3    TBD                 R0805                        resistor            (-275.59055 157.48031) R90
+R-LD4    TBD                 R0805                        resistor            (-191.92913 157.48031) R90
+R-LDLSC  TBD                 R0805                        resistor            (187.00787 -1259.84252) R90
+R-LSC    8.2k                R0805                        resistor            (270.66929 -1259.84252) R270
+R1-0C    10k                 R0805                        resistor            (-24.6063 255.90551)  R270
+R1-4S    10k 1%M             R0805                        resistor            (-437.99213 -310.03937) R270
+R1-VD1                       R0805                        resistor            (403.54331 -142.71654) R270
+R1-VD2                       R0805                        resistor            (-339.56693 -250.98425) MR0
+R2-0C    10k                 R0805                        resistor            (319.88189 -305.11811) R270
+R2-4S    10k 1%M             R0805                        resistor            (-351.87008 -310.03937) R90
+R2-VD1                       R0805                        resistor            (403.54331 -305.11811) R270
+R2-VD2                       R0805                        resistor            (-339.56693 -339.56693) MR180
+R3-4S    10k 1%M             R0805                        resistor            (285.43307 -634.84252) R270
+R4-4S    10k 1%M             R0805                        resistor            (369.09449 -634.84252) R90
+U0-C     STM32F411CEUX       QFN50P700X700X50-49T560N     Computer2           (0 0)                 R0
+U0-S     TLV74118PDBVR       SOT95P280X145-5N             Computer2           (-319.88189 -472.44094) R0
+U1-C     TC58CVG2S0HRAIJ     SON127P800X600X80-9T350X440N Computer2           (45 475)              R0
+U1-S     ICM-20948           QFN40P300X300X105-25T159X175 Computer2           (0 -472.44094)        R0
+U2-S     MS5607              MS5607                       Computer2           (334.64567 -472.44094) R90
+U3-S     ULTIMATE_GPS        FGPMMOPA6H                   Computer2           (0 -905.51181)        MR180
+U4-S     MMA1211KEG          SOIC127P1041X355-16N         Computer2           (255.90551 -935.03937) R0
+U5-S     LTC1517ES5-5        SOT95P280X145-5N             Computer2           (-319.88189 -644.68504) R270
+U11-S    SN74LV1T34          SOT65P210X110-5              Computer2           (206.69291 -305.11811) R0
+U12-S    SN74LV1T34          SOT65P210X110-5              Computer2           (68.89764 -305.11811) R0
+U13-S    SN74LV1T34          SOT65P210X110-5              Computer2           (-68.89764 -305.11811) R0
+U14-S    SN74LV1T34          SOT65P210X110-5              Computer2           (-206.69291 -305.11811) R0
+U15-S    SN74LV1T34          SOT65P210X110-5              Computer2           (-63.97638 -659.44882) R0
+U16-S    SN74LV1T34          SOT65P210X110-5              Computer2           (63.97638 -659.44882) R0
