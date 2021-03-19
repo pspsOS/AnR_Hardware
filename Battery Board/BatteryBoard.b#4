@@ -1783,6 +1783,44 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 </package>
 </packages>
 </library>
+<library name="Connect">
+<packages>
+<package name="JSTPH2" urn="urn:adsk.eagle:footprint:15955147/1">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.2032" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.2032" layer="21"/>
+<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-2.2225" y="1.9685" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-2.2225" y="1.27" size="0.4064" layer="27" ratio="10">&gt;Value</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="JSTPH2" urn="urn:adsk.eagle:package:15955189/2" type="model">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<packageinstances>
+<packageinstance name="JSTPH2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2190,13 +2228,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-66.798" y="-19.05" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-66.798" y="-19.05" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J3" library="MPTC-02-16-02-6.30-XX-X-V" package="SAMTEC_MPTC-02-16-02-6.30-XX-X-V" value="MPTC-02-16-02-6.30-XX-X-V" x="-55.88" y="-35.56" smashed="yes">
-<attribute name="MANUFACTURER" value="Samtec" x="-55.88" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="11.38 mm" x="-55.88" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-74.4072" y="-28.34648125" size="1.272390625" layer="25"/>
-<attribute name="PARTREV" value="L" x="-55.88" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="STANDARD" value="Manufacturer Recommendations" x="-55.88" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-74.4077" y="-43.9755" size="1.272340625" layer="27"/>
+<element name="J3" library="MPTC-02-16-02-6.30-XX-X-V" package="SAMTEC_MPTC-02-16-02-6.30-XX-X-V" value="MPTC-02-16-02-6.30-XX-X-V" x="0" y="-34.29" smashed="yes">
+<attribute name="MANUFACTURER" value="Samtec" x="0" y="-34.29" size="1.778" layer="27" display="off"/>
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="11.38 mm" x="0" y="-34.29" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-18.5272" y="-27.07648125" size="1.272390625" layer="25"/>
+<attribute name="PARTREV" value="L" x="0" y="-34.29" size="1.778" layer="27" display="off"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations" x="0" y="-34.29" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-18.5277" y="-42.7055" size="1.272340625" layer="27"/>
+</element>
+<element name="J4" library="Connect" package="JSTPH2" package3d_urn="urn:adsk.eagle:package:15955189/2" value="JSTPH2" x="-90.17" y="-36.83" smashed="yes">
+<attribute name="NAME" x="-92.3925" y="-34.8615" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="-92.3925" y="-35.56" size="0.4064" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -2245,12 +2287,8 @@ design rules under a new name.</description>
 <contactref element="J3" pad="P04_5"/>
 <contactref element="J3" pad="P04_2"/>
 <contactref element="J3" pad="P04_6"/>
-<wire x1="-67.385" y1="-38.1" x2="-69.265" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-69.265" y1="-35.56" x2="-69.265" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.385" y1="-35.56" x2="-69.265" y2="-35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-69.265" y1="-33.02" x2="-69.265" y2="-35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.385" y1="-33.02" x2="-69.265" y2="-33.02" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.835" y1="-22.55" x2="-67.385" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<contactref element="J4" pad="1"/>
+<wire x1="-66.835" y1="-22.55" x2="-91.17" y2="-40.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-64.735" y1="-21.275" x2="-66.835" y2="-22.55" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.285" y1="-20.35" x2="-64.735" y2="-21.275" width="0" layer="19" extent="1-1"/>
 <wire x1="-64.735" y1="-16.825" x2="-65.285" y2="-20.35" width="0" layer="19" extent="1-1"/>
@@ -2269,13 +2307,19 @@ design rules under a new name.</description>
 <wire x1="-32.07" y1="-7.62" x2="-25.72" y2="-7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.382" y1="4.953" x2="-26.35" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.33" y1="-16.51" x2="-25.72" y2="-7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.375" y1="-38.1" x2="-67.385" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.495" y1="-38.1" x2="-44.375" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.375" y1="-35.56" x2="-44.375" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.495" y1="-35.56" x2="-44.375" y2="-35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.375" y1="-33.02" x2="-44.375" y2="-35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.495" y1="-33.02" x2="-44.375" y2="-33.02" width="0" layer="19" extent="1-1"/>
-<wire x1="32.385" y1="-5.268" x2="-8.382" y2="4.953" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.505" y1="-31.75" x2="-8.33" y2="-16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.385" y1="-31.75" x2="-11.505" y2="-31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.385" y1="-34.29" x2="-13.385" y2="-31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.505" y1="-34.29" x2="-13.385" y2="-34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.385" y1="-36.83" x2="-13.385" y2="-34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.505" y1="-36.83" x2="-13.385" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="11.505" y1="-36.83" x2="-11.505" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="13.385" y1="-36.83" x2="11.505" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="11.505" y1="-34.29" x2="11.505" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="13.385" y1="-34.29" x2="11.505" y2="-34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="11.505" y1="-31.75" x2="11.505" y2="-34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="13.385" y1="-31.75" x2="11.505" y2="-31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="32.385" y1="-5.268" x2="13.385" y2="-31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="35.355" y1="-4.31" x2="32.385" y2="-5.268" width="0" layer="19" extent="1-1"/>
 <wire x1="36.83" y1="-3.81" x2="35.355" y2="-4.31" width="0" layer="19" extent="1-1"/>
 <wire x1="38.305" y1="-4.31" x2="36.83" y2="-3.81" width="0" layer="19" extent="1-1"/>
@@ -2310,11 +2354,13 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="3"/>
 <contactref element="C7" pad="1"/>
 <contactref element="J1" pad="1"/>
-<wire x1="-33.97" y1="-7.62" x2="-8.382" y2="10.033" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.27" y1="14.29" x2="-33.97" y2="-7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.48" y1="15.24" x2="-34.27" y2="14.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.74" y1="3.81" x2="-48.48" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.33" y1="-13.97" x2="-33.97" y2="-7.62" width="0" layer="19" extent="1-1"/>
+<contactref element="J4" pad="2"/>
+<wire x1="-58.74" y1="3.81" x2="-89.17" y2="-40.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.48" y1="15.24" x2="-58.74" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.27" y1="14.29" x2="-48.48" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.97" y1="-7.62" x2="-34.27" y2="14.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.382" y1="10.033" x2="-34.27" y2="14.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.33" y1="-13.97" x2="-8.382" y2="10.033" width="0" layer="19" extent="1-1"/>
 <wire x1="32.385" y1="-3.368" x2="-8.33" y2="-13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="35.355" y1="-3.31" x2="32.385" y2="-3.368" width="0" layer="19" extent="1-1"/>
 <wire x1="35.355" y1="-3.81" x2="35.355" y2="-3.31" width="0" layer="19" extent="1-1"/>
@@ -2449,11 +2495,11 @@ design rules under a new name.</description>
 <contactref element="J3" pad="P03_6"/>
 <contactref element="J3" pad="P03_5"/>
 <contactref element="J3" pad="P03_2"/>
-<wire x1="-47.495" y1="-38.1" x2="-49.375" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.375" y1="-35.56" x2="-49.375" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-47.495" y1="-35.56" x2="-49.375" y2="-35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.375" y1="-33.02" x2="-49.375" y2="-35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-47.495" y1="-33.02" x2="-49.375" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="8.385" y1="-36.83" x2="6.505" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="6.505" y1="-34.29" x2="6.505" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="8.385" y1="-34.29" x2="6.505" y2="-34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="6.505" y1="-31.75" x2="6.505" y2="-34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="8.385" y1="-31.75" x2="6.505" y2="-31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P02">
 <contactref element="J3" pad="P02_1"/>
@@ -2462,11 +2508,11 @@ design rules under a new name.</description>
 <contactref element="J3" pad="P02_4"/>
 <contactref element="J3" pad="P02_5"/>
 <contactref element="J3" pad="P02_6"/>
-<wire x1="-62.385" y1="-38.1" x2="-64.265" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.265" y1="-35.56" x2="-64.265" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.385" y1="-35.56" x2="-64.265" y2="-35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.265" y1="-33.02" x2="-64.265" y2="-35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.385" y1="-33.02" x2="-64.265" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.505" y1="-36.83" x2="-8.385" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.385" y1="-34.29" x2="-8.385" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.505" y1="-34.29" x2="-8.385" y2="-34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.385" y1="-31.75" x2="-8.385" y2="-34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.505" y1="-31.75" x2="-8.385" y2="-31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
