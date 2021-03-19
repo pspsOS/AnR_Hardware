@@ -2650,16 +2650,16 @@ design rules under a new name.</description>
 <element name="R-LSC" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="8.2k" x="6.875" y="-32" smashed="yes" rot="R270">
 <attribute name="VALUE" x="4.335" y="-31.365" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="LD4" library="adafruit" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="WHITE" x="-4.875" y="7.75" smashed="yes">
+<element name="LD4" library="adafruit" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="" x="-4.875" y="7.75" smashed="yes">
 <attribute name="VALUE" x="-2.335" y="6.48" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LD3" library="adafruit" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="BLUE" x="-7" y="7.75" smashed="yes">
+<element name="LD3" library="adafruit" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="" x="-7" y="7.75" smashed="yes">
 <attribute name="VALUE" x="-4.46" y="6.48" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LD2" library="adafruit" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="GREEN" x="-9.125" y="7.75" smashed="yes">
+<element name="LD2" library="adafruit" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="" x="-9.125" y="7.75" smashed="yes">
 <attribute name="VALUE" x="-6.585" y="6.48" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LD1" library="adafruit" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="RED" x="-11.25" y="7.75" smashed="yes">
+<element name="LD1" library="adafruit" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="" x="-11.25" y="7.75" smashed="yes">
 <attribute name="VALUE" x="-8.71" y="6.48" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R-LD1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="TBD" x="-11.25" y="4" smashed="yes" rot="R90">
@@ -2713,7 +2713,7 @@ design rules under a new name.</description>
 <element name="Q-LSC" library="Computer2" library_urn="urn:adsk.eagle:library:23762960" package="SOT23" package3d_urn="urn:adsk.eagle:package:10675799/1" value="MMBTA06Q-7-F" x="1.5" y="-32" smashed="yes" rot="R90">
 <attribute name="VALUE" x="4.675" y="-33.905" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LD-LSC" library="adafruit" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="RED" x="-1.5" y="-32" smashed="yes" rot="R180">
+<element name="LD-LSC" library="adafruit" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="" x="-1.5" y="-32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-4.04" y="-30.73" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R-LDLSC" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="TBD" x="4.75" y="-32" smashed="yes" rot="R90">
