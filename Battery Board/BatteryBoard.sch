@@ -13582,14 +13582,14 @@ rotated 45 deg.</description>
 <label x="63.5" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="C01"/>
-<wire x1="-22.86" y1="180.34" x2="-17.78" y2="180.34" width="0.1524" layer="91"/>
-<label x="-17.78" y="180.34" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="A03"/>
 <wire x1="-53.34" y1="149.86" x2="-55.88" y2="149.86" width="0.1524" layer="91"/>
 <label x="-55.88" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="D01"/>
+<wire x1="-22.86" y1="175.26" x2="-17.78" y2="175.26" width="0.1524" layer="91"/>
+<label x="-17.78" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -13599,14 +13599,14 @@ rotated 45 deg.</description>
 <label x="66.04" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="D01"/>
-<wire x1="-22.86" y1="175.26" x2="-17.78" y2="175.26" width="0.1524" layer="91"/>
-<label x="-17.78" y="175.26" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="A04"/>
 <wire x1="-53.34" y1="147.32" x2="-58.42" y2="147.32" width="0.1524" layer="91"/>
 <label x="-58.42" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="C01"/>
+<wire x1="-22.86" y1="180.34" x2="-17.78" y2="180.34" width="0.1524" layer="91"/>
+<label x="-17.78" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VUSB" class="0">

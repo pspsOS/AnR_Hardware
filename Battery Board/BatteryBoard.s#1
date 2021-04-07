@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -13458,6 +13458,28 @@ rotated 45 deg.</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-12.7" y1="58.42" x2="-12.7" y2="55.88" width="0.1524" layer="91"/>
 <label x="-12.7" y="55.88" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="EP/PGND_4"/>
+<pinref part="IC1" gate="G$1" pin="EP/PGND_3"/>
+<wire x1="203.2" y1="25.4" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="EP/PGND_2"/>
+<wire x1="203.2" y1="27.94" x2="203.2" y2="30.48" width="0.1524" layer="91"/>
+<junction x="203.2" y="27.94"/>
+<pinref part="IC1" gate="G$1" pin="EP/PGND_1"/>
+<wire x1="203.2" y1="30.48" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
+<junction x="203.2" y="30.48"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="EP/PGND_8"/>
+<pinref part="IC1" gate="G$1" pin="EP/PGND_7"/>
+<wire x1="243.84" y1="33.02" x2="243.84" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="EP/PGND_6"/>
+<wire x1="243.84" y1="30.48" x2="243.84" y2="27.94" width="0.1524" layer="91"/>
+<junction x="243.84" y="30.48"/>
+<pinref part="IC1" gate="G$1" pin="EP/PGND_5"/>
+<wire x1="243.84" y1="27.94" x2="243.84" y2="25.4" width="0.1524" layer="91"/>
+<junction x="243.84" y="27.94"/>
 </segment>
 </net>
 <net name="VDDA" class="0">
