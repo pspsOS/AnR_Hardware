@@ -2626,8 +2626,6 @@ design rules under a new name.</description>
 <wire x1="5.317" y1="-16.002" x2="5.317" y2="-27.292" width="1.016" layer="1"/>
 <wire x1="5.317" y1="-27.292" x2="8.505" y2="-30.48" width="1.016" layer="1"/>
 <wire x1="-2.794" y1="7.958" x2="0.508" y2="7.958" width="0.6096" layer="1"/>
-<wire x1="1.143" y1="-6.157" x2="-1.336" y2="-3.678" width="0.6096" layer="1"/>
-<wire x1="-1.336" y1="-3.678" x2="-1.336" y2="0.127" width="0.6096" layer="1"/>
 <wire x1="-1.336" y1="0.127" x2="-0.54" y2="0.923" width="0.6096" layer="1"/>
 <wire x1="-0.54" y1="0.923" x2="0.508" y2="0.923" width="0.6096" layer="1"/>
 <wire x1="0.508" y1="0.923" x2="3.161" y2="0.923" width="0.6096" layer="1"/>
@@ -2661,6 +2659,8 @@ design rules under a new name.</description>
 <wire x1="10.795" y1="19.05" x2="6.858" y2="22.987" width="0.2032" layer="1"/>
 <wire x1="6.858" y1="28.448" x2="6.604" y2="28.702" width="0.2032" layer="1"/>
 <wire x1="6.858" y1="22.987" x2="6.858" y2="28.448" width="0.2032" layer="1"/>
+<wire x1="-1.336" y1="0.127" x2="-1.336" y2="-3.678" width="0.6096" layer="1"/>
+<wire x1="-1.336" y1="-3.678" x2="1.143" y2="-6.157" width="0.6096" layer="1"/>
 <wire x1="5.495" y1="15.213" x2="5.395" y2="15.113" width="0" layer="19" extent="16-16"/>
 <wire x1="5.395" y1="12.065" x2="5.395" y2="15.113" width="0" layer="19" extent="16-16"/>
 <wire x1="-4.953" y1="17.973" x2="-5.207" y2="17.973" width="0" layer="19" extent="16-16"/>
@@ -3244,7 +3244,7 @@ design rules under a new name.</description>
 <via x="3.495" y="9.779" extent="1-16" drill="0.35"/>
 <wire x1="3.495" y1="9.779" x2="5.08" y2="8.194" width="1.016" layer="1"/>
 <wire x1="5.08" y1="8.194" x2="5.08" y2="7.79620625" width="1.016" layer="1"/>
-<wire x1="3.495" y1="12.065" x2="3.462" y2="12.86" width="0" layer="19" extent="16-16"/>
+<wire x1="5.08" y1="7.79620625" x2="3.462" y2="12.86" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$12">
 <via x="-10.16" y="22.86" extent="1-16" drill="2.9464"/>
