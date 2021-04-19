@@ -1,0 +1,68 @@
+Partlist
+
+Exported from PSPS_AVNC_MITCH_2021-0_PRODUCTION.sch at 4/12/2021 2:27 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value               Device              Package                      Library             Sheet
+
+C-2S     4.7uF               C-USC0805           C0805                        resistor            2
+C1-0C    4.7uF               C-USC0805           C0805                        resistor            1
+C1-0S    1uF                 C-USC0805           C0805                        resistor            2
+C1-1S    0.1uF               C-USC0805           C0805                        resistor            2
+C1-4S    1nF                 C-USC0805           C0805                        resistor            2
+C1-5S    4.7uF               C-USC0805           C0805                        resistor            2
+C2-0C    0.1uF               C-USC0805           C0805                        resistor            1
+C2-0S    100uF               C-USC0805           C0805                        resistor            2
+C2-1S    0.1uF               C-USC0805           C0805                        resistor            2
+C2-5S    22uF                C-USC0805           C0805                        resistor            2
+C3-0C    0.1uF               C-USC0805           C0805                        resistor            1
+C3-1S    0.1uF               C-USC0805           C0805                        resistor            2
+C3-5S    0.1uF               C-USC0805           C0805                        resistor            2
+C4-0C    0.1uF               C-USC0805           C0805                        resistor            1
+C5-0C    0.1uF               C-USC0805           C0805                        resistor            1
+C6-0C    0.1uF               C-USC0805           C0805                        resistor            1
+FB-0C    MMZ2012Y152B        MMZ2012Y152B        BEADC2012X105N               Computer2           1
+J-AE3S   A-1JB               A-1JB               A1JB                         SamacSys_Parts      2
+J-B                          CR1220SMT           CR1220-SMD                   adafruit            1
+J-IB     TFM-107-01-XXX-D-DS TFM-107-01-XXX-D-DS TFM-107-01-XXX-D-DS          TFM-107-01-XXX-D-DS 1
+LD-LSC   RED                 LEDCHIPLED_0805     CHIPLED_0805                 adafruit            1
+LD1      RED                 LEDCHIPLED_0805     CHIPLED_0805                 adafruit            1
+LD2      GREEN               LEDCHIPLED_0805     CHIPLED_0805                 adafruit            1
+LD3      BLUE                LEDCHIPLED_0805     CHIPLED_0805                 adafruit            1
+LD4      WHITE               LEDCHIPLED_0805     CHIPLED_0805                 adafruit            1
+LS-C     ASI09N27M-05Q       ASI09N27M-05Q       ASI09N27M-05Q                Computer2           1
+Q-LSC    MMBTA06Q-7-F        NPN_TRANSISTOR      SOT23                        Computer2           1
+R-1C     10k                 R-US_R0805          R0805                        resistor            1
+R-LD1    TBD                 R-US_R0805          R0805                        resistor            1
+R-LD2    TBD                 R-US_R0805          R0805                        resistor            1
+R-LD3    TBD                 R-US_R0805          R0805                        resistor            1
+R-LD4    TBD                 R-US_R0805          R0805                        resistor            1
+R-LDLSC  TBD                 R-US_R0805          R0805                        resistor            1
+R-LSC    8.2k                R-US_R0805          R0805                        resistor            1
+R1-0C    10k                 R-US_R0805          R0805                        resistor            1
+R1-4S    10k 1%M             R-US_R0805          R0805                        resistor            2
+R1-VD1                       R-US_R0805          R0805                        resistor            1
+R1-VD2                       R-US_R0805          R0805                        resistor            1
+R2-0C    10k                 R-US_R0805          R0805                        resistor            1
+R2-4S    10k 1%M             R-US_R0805          R0805                        resistor            2
+R2-VD1                       R-US_R0805          R0805                        resistor            1
+R2-VD2                       R-US_R0805          R0805                        resistor            1
+R3-4S    10k 1%M             R-US_R0805          R0805                        resistor            2
+R4-4S    10k 1%M             R-US_R0805          R0805                        resistor            2
+U0-C     STM32F411CEUX       STM32F411CEUX       QFN50P700X700X50-49T560N     Computer2           1
+U0-S     TLV74118PDBVR       TLV74118PDBVR       SOT95P280X145-5N             Computer2           2
+U1-C     TC58CVG2S0HRAIJ     TC58CVG2S0HRAIJ     SON127P800X600X80-9T350X440N Computer2           1
+U1-S     ICM-20948           ICM-20948           QFN40P300X300X105-25T159X175 Computer2           2
+U2-S     MS5607              MS5607              MS5607                       Computer2           2
+U3-S     ULTIMATE_GPS        ULTIMATE_GPS        FGPMMOPA6H                   Computer2           2
+U4-S     MMA1211KEG          MMA1211KEG          SOIC127P1041X355-16N         Computer2           2
+U5-S     LTC1517ES5-5        LTC1517ES5-5        SOT95P280X145-5N             Computer2           2
+U11-S    SN74LV1T34          SN74LV1T34          SOT65P210X110-5              Computer2           2
+U12-S    SN74LV1T34          SN74LV1T34          SOT65P210X110-5              Computer2           2
+U13-S    SN74LV1T34          SN74LV1T34          SOT65P210X110-5              Computer2           2
+U14-S    SN74LV1T34          SN74LV1T34          SOT65P210X110-5              Computer2           2
+U15-S    SN74LV1T34          SN74LV1T34          SOT65P210X110-5              Computer2           2
+U16-S    SN74LV1T34          SN74LV1T34          SOT65P210X110-5              Computer2           2
