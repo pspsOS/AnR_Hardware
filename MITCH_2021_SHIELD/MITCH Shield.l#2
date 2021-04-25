@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -714,32 +714,6 @@
 <text x="22.86" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">VOUT</text>
 <text x="25.4" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">GND</text>
 </package>
-<package name="COMPUTER2_SON127P800X600X80-9T350X440N">
-<description>8-SON (DFN), 1.27 mm pitch, 6.00 X 8.00 X 0.80 mm body, 4.40 X 3.50 mm thermal pad
-&lt;p&gt;8-pin SON (DFN) package with 1.27 mm pitch with body size 6.00 X 8.00 X 0.80 mm and thermal pad size 4.40 X 3.50 mm&lt;/p&gt;</description>
-<circle x="-4.504" y="2.619" radius="0.25" width="0" layer="21"/>
-<wire x1="-4" y1="2.369" x2="-4" y2="3" width="0.12" layer="21"/>
-<wire x1="-4" y1="3" x2="4" y2="3" width="0.12" layer="21"/>
-<wire x1="4" y1="3" x2="4" y2="2.369" width="0.12" layer="21"/>
-<wire x1="-4" y1="-2.369" x2="-4" y2="-3" width="0.12" layer="21"/>
-<wire x1="-4" y1="-3" x2="4" y2="-3" width="0.12" layer="21"/>
-<wire x1="4" y1="-3" x2="4" y2="-2.369" width="0.12" layer="21"/>
-<wire x1="4" y1="-3" x2="-4" y2="-3" width="0.12" layer="51"/>
-<wire x1="-4" y1="-3" x2="-4" y2="3" width="0.12" layer="51"/>
-<wire x1="-4" y1="3" x2="4" y2="3" width="0.12" layer="51"/>
-<wire x1="4" y1="3" x2="4" y2="-3" width="0.12" layer="51"/>
-<smd name="1" x="-3.9006" y="1.905" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
-<smd name="2" x="-3.9006" y="0.635" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
-<smd name="3" x="-3.9006" y="-0.635" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
-<smd name="4" x="-3.9006" y="-1.905" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
-<smd name="5" x="3.9006" y="-1.905" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
-<smd name="6" x="3.9006" y="-0.635" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
-<smd name="7" x="3.9006" y="0.635" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
-<smd name="8" x="3.9006" y="1.905" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
-<smd name="9" x="0" y="0" dx="3.5" dy="4.4" layer="1" thermals="no"/>
-<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P1041X355-16N" urn="urn:adsk.eagle:package:17312048/1" type="model">
@@ -1385,28 +1359,6 @@ https://www.mouser.com/ProductDetail/Kioxia-America/TC58CVG2S0HRAIJ/?qs=%2Fha2py
 <connect gate="G$1" pin="SDA" pad="SDA"/>
 <connect gate="G$1" pin="VOUT" pad="VOUT"/>
 <connect gate="G$1" pin="VPU" pad="VPU"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TC58CVG2S0HRAIJ-ACTUAL">
-<gates>
-<gate name="G$1" symbol="TC58CVG2S0HRAIJ" x="2.54" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="COMPUTER2_SON127P800X600X80-9T350X440N">
-<connects>
-<connect gate="G$1" pin="!CS!" pad="1"/>
-<connect gate="G$1" pin="!HOLD!/IO3" pad="7"/>
-<connect gate="G$1" pin="!WP!/IO2" pad="3"/>
-<connect gate="G$1" pin="SCK" pad="6"/>
-<connect gate="G$1" pin="SI/IO0" pad="5"/>
-<connect gate="G$1" pin="SO/IO1" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-<connect gate="G$1" pin="VSS" pad="4 9"/>
 </connects>
 <technologies>
 <technology name=""/>
