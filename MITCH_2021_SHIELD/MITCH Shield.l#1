@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -713,6 +713,10 @@
 <text x="20.32" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">CE</text>
 <text x="22.86" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">VOUT</text>
 <text x="25.4" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">GND</text>
+<text x="22.86" y="30.48" size="1.778" layer="51">USB</text>
+<text x="22.86" y="30.48" size="1.778" layer="51">USB</text>
+<text x="2.54" y="22.86" size="1.778" layer="51" rot="R90">BAT</text>
+<text x="2.54" y="22.86" size="1.778" layer="51" rot="R90">BAT</text>
 </package>
 <package name="COMPUTER2_SON127P800X600X80-9T350X440N">
 <description>8-SON (DFN), 1.27 mm pitch, 6.00 X 8.00 X 0.80 mm body, 4.40 X 3.50 mm thermal pad

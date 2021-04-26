@@ -6,23 +6,23 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -50,13 +50,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -689,34 +689,34 @@
 <text x="-2.2225" y="1.27" size="0.4064" layer="27" ratio="10">&gt;Value</text>
 </package>
 <package name="SPARKFUN-BATTERY-BABYSITTER">
-<wire x1="0" y1="0" x2="0" y2="33.02" width="0.127" layer="21"/>
-<wire x1="0" y1="33.02" x2="33.02" y2="33.02" width="0.127" layer="21"/>
-<wire x1="33.02" y1="33.02" x2="33.02" y2="0" width="0.127" layer="21"/>
-<wire x1="33.02" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="GND@1" x="7.62" y="1.27" drill="1.07" shape="square"/>
-<pad name="VPU" x="10.16" y="1.27" drill="1.07"/>
-<pad name="SDA" x="12.7" y="1.27" drill="1.07"/>
-<pad name="SCL" x="15.24" y="1.27" drill="1.07"/>
-<pad name="GPOUT" x="17.78" y="1.27" drill="1.07"/>
-<pad name="CE" x="20.32" y="1.27" drill="1.07"/>
-<pad name="VOUT" x="22.86" y="1.27" drill="1.07"/>
-<pad name="GND@2" x="25.4" y="1.27" drill="1.07"/>
-<hole x="2.54" y="2.54" drill="3.175"/>
-<hole x="30.48" y="2.54" drill="3.175"/>
-<hole x="30.48" y="30.48" drill="3.175"/>
-<hole x="2.54" y="30.48" drill="3.175"/>
-<text x="7.62" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">GND</text>
-<text x="10.16" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">VPU</text>
-<text x="12.7" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">SDA</text>
-<text x="15.24" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">SCL</text>
-<text x="17.78" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">GPOUT</text>
-<text x="20.32" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">CE</text>
-<text x="22.86" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">VOUT</text>
-<text x="25.4" y="2.54" size="1.27" layer="21" rot="R90" align="center-left">GND</text>
-<text x="22.86" y="30.48" size="1.778" layer="51">USB</text>
-<text x="22.86" y="30.48" size="1.778" layer="51">USB</text>
-<text x="2.54" y="22.86" size="1.778" layer="51" rot="R90">BAT</text>
-<text x="2.54" y="22.86" size="1.778" layer="51" rot="R90">BAT</text>
+<wire x1="-16.51" y1="-16.51" x2="-16.51" y2="16.51" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="16.51" x2="16.51" y2="16.51" width="0.127" layer="21"/>
+<wire x1="16.51" y1="16.51" x2="16.51" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-16.51" x2="-16.51" y2="-16.51" width="0.127" layer="21"/>
+<pad name="GND@1" x="-8.89" y="-15.24" drill="1.07" shape="square"/>
+<pad name="VPU" x="-6.35" y="-15.24" drill="1.07"/>
+<pad name="SDA" x="-3.81" y="-15.24" drill="1.07"/>
+<pad name="SCL" x="-1.27" y="-15.24" drill="1.07"/>
+<pad name="GPOUT" x="1.27" y="-15.24" drill="1.07"/>
+<pad name="CE" x="3.81" y="-15.24" drill="1.07"/>
+<pad name="VOUT" x="6.35" y="-15.24" drill="1.07"/>
+<pad name="GND@2" x="8.89" y="-15.24" drill="1.07"/>
+<hole x="-13.97" y="-13.97" drill="3.175"/>
+<hole x="13.97" y="-13.97" drill="3.175"/>
+<hole x="13.97" y="13.97" drill="3.175"/>
+<hole x="-13.97" y="13.97" drill="3.175"/>
+<text x="-8.89" y="-13.97" size="1.27" layer="21" rot="R90" align="center-left">GND</text>
+<text x="-6.35" y="-13.97" size="1.27" layer="21" rot="R90" align="center-left">VPU</text>
+<text x="-3.81" y="-13.97" size="1.27" layer="21" rot="R90" align="center-left">SDA</text>
+<text x="-1.27" y="-13.97" size="1.27" layer="21" rot="R90" align="center-left">SCL</text>
+<text x="1.27" y="-13.97" size="1.27" layer="21" rot="R90" align="center-left">GPOUT</text>
+<text x="3.81" y="-13.97" size="1.27" layer="21" rot="R90" align="center-left">CE</text>
+<text x="6.35" y="-13.97" size="1.27" layer="21" rot="R90" align="center-left">VOUT</text>
+<text x="8.89" y="-13.97" size="1.27" layer="21" rot="R90" align="center-left">GND</text>
+<text x="6.35" y="13.97" size="1.778" layer="51">USB</text>
+<text x="6.35" y="13.97" size="1.778" layer="51">USB</text>
+<text x="-13.97" y="6.35" size="1.778" layer="51" rot="R90">BAT</text>
+<text x="-13.97" y="6.35" size="1.778" layer="51" rot="R90">BAT</text>
 </package>
 <package name="COMPUTER2_SON127P800X600X80-9T350X440N">
 <description>8-SON (DFN), 1.27 mm pitch, 6.00 X 8.00 X 0.80 mm body, 4.40 X 3.50 mm thermal pad

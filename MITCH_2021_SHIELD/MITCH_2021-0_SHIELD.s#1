@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -13140,6 +13140,88 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex" urn="urn:adsk.eagle:library:165">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="22-23-2061" urn="urn:adsk.eagle:footprint:8078263/1" library_version="5">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 6 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232061_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<wire x1="-7.62" y1="3.175" x2="7.62" y2="3.175" width="0.254" layer="21"/>
+<wire x1="7.62" y1="3.175" x2="7.62" y2="1.27" width="0.254" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="7.62" y1="-3.175" x2="-7.62" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="-3.175" x2="-7.62" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="1.27" x2="-7.62" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-6.35" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="6" x="6.35" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-7.62" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-7.62" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="22-23-2061" urn="urn:adsk.eagle:package:8078637/1" type="box" library_version="5">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 6 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232061_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="22-23-2061"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MV" urn="urn:adsk.eagle:symbol:6783/2" library_version="5">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="M" urn="urn:adsk.eagle:symbol:6785/2" library_version="5">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="22-23-2061" urn="urn:adsk.eagle:component:8078934/3" prefix="X" uservalue="yes" library_version="5">
+<description>.100" (2.54mm) Center Header - 6 Pin</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-5" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-6" symbol="M" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="22-23-2061">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8078637/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="22-23-2061" constant="no"/>
+<attribute name="OC_FARNELL" value="1462922" constant="no"/>
+<attribute name="OC_NEWARK" value="27C1933" constant="no"/>
+<attribute name="POPULARITY" value="6" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13188,6 +13270,8 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="(2*10)uF"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="MITCH Shield" deviceset="TC58CVG2S0HRAIJ-ACTUAL" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2061" device="" package3d_urn="urn:adsk.eagle:package:8078637/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -13340,6 +13424,28 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <attribute name="NAME" x="182.88" y="180.34" size="1.27" layer="95"/>
 <attribute name="VALUE" x="182.88" y="160.02" size="1.27" layer="96"/>
 </instance>
+<instance part="GND11" gate="1" x="-68.58" y="121.92" smashed="yes">
+<attribute name="VALUE" x="-71.12" y="119.38" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="-1" x="-63.5" y="139.7" smashed="yes">
+<attribute name="NAME" x="-60.96" y="138.938" size="1.524" layer="95"/>
+<attribute name="VALUE" x="-64.262" y="141.097" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="-2" x="-63.5" y="137.16" smashed="yes">
+<attribute name="NAME" x="-60.96" y="136.398" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-3" x="-63.5" y="134.62" smashed="yes">
+<attribute name="NAME" x="-60.96" y="133.858" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-4" x="-63.5" y="132.08" smashed="yes">
+<attribute name="NAME" x="-60.96" y="131.318" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-5" x="-63.5" y="129.54" smashed="yes">
+<attribute name="NAME" x="-60.96" y="128.778" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-6" x="-63.5" y="127" smashed="yes">
+<attribute name="NAME" x="-60.96" y="126.238" size="1.524" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13353,13 +13459,8 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VIN"/>
-<wire x1="-17.78" y1="162.56" x2="-20.32" y2="162.56" width="0.1524" layer="91"/>
 <label x="-22.86" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="PS"/>
-<wire x1="-20.32" y1="162.56" x2="-22.86" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="165.1" x2="-20.32" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="165.1" x2="-20.32" y2="162.56" width="0.1524" layer="91"/>
-<junction x="-20.32" y="162.56"/>
+<wire x1="-17.78" y1="162.56" x2="-22.86" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VIN@2"/>
@@ -13516,6 +13617,17 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <wire x1="213.36" y1="68.58" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 <junction x="213.36" y="68.58"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="PS"/>
+<wire x1="-17.78" y1="165.1" x2="-20.32" y2="165.1" width="0.1524" layer="91"/>
+<label x="-20.32" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="X1" gate="-6" pin="S"/>
+<wire x1="-68.58" y1="124.46" x2="-68.58" y2="127" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="127" x2="-66.04" y2="127" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SENSORS_SCK" class="0">
 <segment>
@@ -13545,6 +13657,11 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <wire x1="33.02" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
 <label x="30.48" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="CN7" pin="PC12"/>
+<wire x1="-30.48" y1="55.88" x2="-33.02" y2="55.88" width="0.1524" layer="91"/>
+<label x="-33.02" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SENSORS_MISO" class="0">
 <segment>
@@ -13556,11 +13673,6 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <pinref part="U1" gate="CN7" pin="PC11"/>
 <wire x1="-30.48" y1="60.96" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
 <label x="-33.02" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="CN7" pin="PC12"/>
-<wire x1="-30.48" y1="55.88" x2="-33.02" y2="55.88" width="0.1524" layer="91"/>
-<label x="-33.02" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="AD0"/>
@@ -13575,21 +13687,21 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <label x="-20.32" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="CN10" pin="PC9"/>
-<wire x1="68.58" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
-<label x="71.12" y="99.06" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SENSORS_CS2" class="0">
-<segment>
 <pinref part="U1" gate="CN10" pin="PC8"/>
 <wire x1="68.58" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
 <label x="71.12" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="SENSORS_CS2" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="NC"/>
 <wire x1="33.02" y1="154.94" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
 <label x="30.48" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="CN10" pin="PC9"/>
+<wire x1="68.58" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<label x="71.12" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -13718,6 +13830,16 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <wire x1="248.92" y1="121.92" x2="254" y2="121.92" width="0.1524" layer="91"/>
 <junction x="248.92" y="121.92"/>
 </segment>
+<segment>
+<pinref part="U1" gate="CN7" pin="E5V"/>
+<wire x1="10.16" y1="116.84" x2="12.7" y2="116.84" width="0.1524" layer="91"/>
+<label x="12.7" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="-66.04" y1="129.54" x2="-73.66" y2="129.54" width="0.1524" layer="91"/>
+<label x="-73.66" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X1" gate="-5" pin="S"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -13745,6 +13867,11 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <wire x1="-30.48" y1="71.12" x2="-33.02" y2="71.12" width="0.1524" layer="91"/>
 <label x="-33.02" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="-66.04" y1="139.7" x2="-68.58" y2="139.7" width="0.1524" layer="91"/>
+<label x="-68.58" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALA_REF" class="0">
 <segment>
@@ -13759,6 +13886,11 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <wire x1="-30.48" y1="68.58" x2="-33.02" y2="68.58" width="0.1524" layer="91"/>
 <label x="-33.02" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="-66.04" y1="137.16" x2="-68.58" y2="137.16" width="0.1524" layer="91"/>
+<label x="-68.58" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALA_STATUS" class="0">
 <segment>
@@ -13771,6 +13903,11 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <wire x1="-76.2" y1="177.8" x2="-78.74" y2="177.8" width="0.1524" layer="91"/>
 <label x="-78.74" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-3" pin="S"/>
+<wire x1="-66.04" y1="134.62" x2="-68.58" y2="134.62" width="0.1524" layer="91"/>
+<label x="-68.58" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ALA_ST" class="0">
 <segment>
@@ -13782,6 +13919,11 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <pinref part="U2" gate="G$1" pin="ST"/>
 <wire x1="-76.2" y1="172.72" x2="-78.74" y2="172.72" width="0.1524" layer="91"/>
 <label x="-78.74" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-4" pin="S"/>
+<wire x1="-66.04" y1="132.08" x2="-68.58" y2="132.08" width="0.1524" layer="91"/>
+<label x="-68.58" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VBS" class="0">
@@ -13856,6 +13998,20 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <pinref part="U7" gate="G$1" pin="L1"/>
 <wire x1="187.96" y1="43.18" x2="187.96" y2="45.72" width="0.1524" layer="91"/>
 <label x="187.96" y="43.18" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U1" gate="CN12" pin="CNXX_1"/>
+<pinref part="U1" gate="CN12" pin="CNXX_2"/>
+<wire x1="83.82" y1="63.5" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U1" gate="CN11" pin="CNXX_2"/>
+<pinref part="U1" gate="CN11" pin="CNXX_1"/>
+<wire x1="83.82" y1="81.28" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
