@@ -458,26 +458,31 @@
 <text x="0" y="6.1286" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.86" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SON127P340X430X80-8N" urn="urn:adsk.eagle:footprint:27058947/2">
-<description>8-SON (DFN), 1.27 mm pitch, 4.30 X 3.40 X 0.80 mm body
-&lt;p&gt;8-pin SON (DFN) package with 1.27 mm pitch with body size 4.30 X 3.40 X 0.80 mm&lt;/p&gt;</description>
-<circle x="-2.619" y="-2.254" radius="0.25" width="0" layer="21"/>
-<wire x1="-2.429" y1="-1.75" x2="-2.429" y2="1.75" width="0.12" layer="21"/>
-<wire x1="2.429" y1="-1.75" x2="2.429" y2="1.75" width="0.12" layer="21"/>
-<wire x1="2.2" y1="1.75" x2="2.2" y2="-1.75" width="0.12" layer="51"/>
-<wire x1="2.2" y1="-1.75" x2="-2.2" y2="-1.75" width="0.12" layer="51"/>
-<wire x1="-2.2" y1="-1.75" x2="-2.2" y2="1.75" width="0.12" layer="51"/>
-<wire x1="-2.2" y1="1.75" x2="2.2" y2="1.75" width="0.12" layer="51"/>
-<smd name="1" x="-1.905" y="-1.5956" dx="0.938" dy="0.42" layer="1" roundness="100" rot="R90"/>
-<smd name="2" x="-0.635" y="-1.5956" dx="0.938" dy="0.42" layer="1" roundness="100" rot="R90"/>
-<smd name="3" x="0.635" y="-1.5956" dx="0.938" dy="0.42" layer="1" roundness="100" rot="R90"/>
-<smd name="4" x="1.905" y="-1.5956" dx="0.938" dy="0.42" layer="1" roundness="100" rot="R90"/>
-<smd name="5" x="1.905" y="1.5956" dx="0.938" dy="0.42" layer="1" roundness="100" rot="R90"/>
-<smd name="6" x="0.635" y="1.5956" dx="0.938" dy="0.42" layer="1" roundness="100" rot="R90"/>
-<smd name="7" x="-0.635" y="1.5956" dx="0.938" dy="0.42" layer="1" roundness="100" rot="R90"/>
-<smd name="8" x="-1.905" y="1.5956" dx="0.938" dy="0.42" layer="1" roundness="100" rot="R90"/>
-<text x="-3.504" y="0" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.064" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<package name="COMPUTER2_SON127P800X600X80-9T350X440N">
+<description>8-SON (DFN), 1.27 mm pitch, 6.00 X 8.00 X 0.80 mm body, 4.40 X 3.50 mm thermal pad
+&lt;p&gt;8-pin SON (DFN) package with 1.27 mm pitch with body size 6.00 X 8.00 X 0.80 mm and thermal pad size 4.40 X 3.50 mm&lt;/p&gt;</description>
+<circle x="-4.504" y="2.619" radius="0.25" width="0" layer="21"/>
+<wire x1="-4" y1="2.369" x2="-4" y2="3" width="0.12" layer="21"/>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.12" layer="21"/>
+<wire x1="4" y1="3" x2="4" y2="2.369" width="0.12" layer="21"/>
+<wire x1="-4" y1="-2.369" x2="-4" y2="-3" width="0.12" layer="21"/>
+<wire x1="-4" y1="-3" x2="4" y2="-3" width="0.12" layer="21"/>
+<wire x1="4" y1="-3" x2="4" y2="-2.369" width="0.12" layer="21"/>
+<wire x1="4" y1="-3" x2="-4" y2="-3" width="0.12" layer="51"/>
+<wire x1="-4" y1="-3" x2="-4" y2="3" width="0.12" layer="51"/>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.12" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-3" width="0.12" layer="51"/>
+<smd name="1" x="-3.9006" y="1.905" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
+<smd name="2" x="-3.9006" y="0.635" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
+<smd name="3" x="-3.9006" y="-0.635" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
+<smd name="4" x="-3.9006" y="-1.905" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
+<smd name="5" x="3.9006" y="-1.905" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
+<smd name="6" x="3.9006" y="-0.635" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
+<smd name="7" x="3.9006" y="0.635" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
+<smd name="8" x="3.9006" y="1.905" dx="0.9107" dy="0.42" layer="1" roundness="100"/>
+<smd name="9" x="0" y="0" dx="3.5" dy="4.4" layer="1" thermals="no"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -486,13 +491,6 @@
 &lt;p&gt;16-pin SOIC package with 1.27 mm pitch, 10.41 mm span with body size 10.30 X 7.50 X 3.55 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC127P1041X355-16N"/>
-</packageinstances>
-</package3d>
-<package3d name="SON127P340X430X80-8N" urn="urn:adsk.eagle:package:27058944/2" type="model">
-<description>8-SON (DFN), 1.27 mm pitch, 4.30 X 3.40 X 0.80 mm body
-&lt;p&gt;8-pin SON (DFN) package with 1.27 mm pitch with body size 4.30 X 3.40 X 0.80 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SON127P340X430X80-8N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -876,15 +874,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TC58CVG2S0HRAIJ">
-<description>KIOXIA 4Gb 3.3V Serial Interface NAND Storage Chip
-
-https://www.mouser.com/ProductDetail/Kioxia-America/TC58CVG2S0HRAIJ/?qs=%2Fha2pyFadugZc7%252BD9PrBDvjJY1X%2FOab4zY0dVt2Ql9dEVkAi3P74yw%3D%3D</description>
+<deviceset name="TC58CVG2S0HRAIJ-ACTUAL">
 <gates>
-<gate name="G$1" symbol="TC58CVG2S0HRAIJ" x="0" y="0"/>
+<gate name="G$1" symbol="TC58CVG2S0HRAIJ" x="2.54" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="SON127P340X430X80-8N">
+<device name="" package="COMPUTER2_SON127P800X600X80-9T350X440N">
 <connects>
 <connect gate="G$1" pin="!CS!" pad="1"/>
 <connect gate="G$1" pin="!HOLD!/IO3" pad="7"/>
@@ -893,11 +888,8 @@ https://www.mouser.com/ProductDetail/Kioxia-America/TC58CVG2S0HRAIJ/?qs=%2Fha2py
 <connect gate="G$1" pin="SI/IO0" pad="5"/>
 <connect gate="G$1" pin="SO/IO1" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
-<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="4 9"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27058944/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13168,7 +13160,6 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="MITCH Shield" deviceset="MMA1211KEG" device="" package3d_urn="urn:adsk.eagle:package:17312048/1"/>
-<part name="U6" library="MITCH Shield" deviceset="TC58CVG2S0HRAIJ" device="" package3d_urn="urn:adsk.eagle:package:27058944/2"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k 1%M"/>
@@ -13196,6 +13187,7 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="(2*10)uF"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$1" library="MITCH Shield" deviceset="TC58CVG2S0HRAIJ-ACTUAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13248,10 +13240,6 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <instance part="U2" gate="G$1" x="-68.58" y="162.56" smashed="yes">
 <attribute name="NAME" x="-71.12" y="182.88" size="1.778" layer="95" align="top-left"/>
 <attribute name="VALUE" x="-71.12" y="152.4" size="1.778" layer="96"/>
-</instance>
-<instance part="U6" gate="G$1" x="195.58" y="167.64" smashed="yes">
-<attribute name="NAME" x="182.88" y="180.34" size="1.27" layer="95"/>
-<attribute name="VALUE" x="182.88" y="160.02" size="1.27" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="205.74" y="180.34" smashed="yes">
 <attribute name="VALUE" x="203.2" y="177.8" size="1.778" layer="96"/>
@@ -13348,6 +13336,10 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <instance part="GND23" gate="1" x="210.82" y="22.86" smashed="yes">
 <attribute name="VALUE" x="208.28" y="20.32" size="1.27" layer="96"/>
 </instance>
+<instance part="U$1" gate="G$1" x="195.58" y="167.64" smashed="yes">
+<attribute name="NAME" x="182.88" y="180.34" size="1.27" layer="95"/>
+<attribute name="VALUE" x="182.88" y="160.02" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13375,19 +13367,19 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <label x="30.48" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="VCC"/>
 <wire x1="195.58" y1="185.42" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
 <label x="195.58" y="187.96" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="!WP!/IO2"/>
 <wire x1="177.8" y1="172.72" x2="175.26" y2="172.72" width="0.1524" layer="91"/>
 <label x="175.26" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="!WP!/IO2"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="!HOLD!/IO3"/>
 <wire x1="177.8" y1="167.64" x2="175.26" y2="167.64" width="0.1524" layer="91"/>
 <label x="175.26" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="!HOLD!/IO3"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="VPU"/>
@@ -13426,11 +13418,11 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <wire x1="88.9" y1="180.34" x2="88.9" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="VSS"/>
 <wire x1="198.12" y1="185.42" x2="198.12" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="187.96" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="187.96" x2="205.74" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VSS"/>
@@ -13659,9 +13651,9 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <label x="30.48" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="SCK"/>
 <wire x1="177.8" y1="165.1" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
 <label x="175.26" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SCK"/>
 </segment>
 </net>
 <net name="STORAGE_MISO" class="0">
@@ -13671,9 +13663,9 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <label x="30.48" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="SO/IO1"/>
 <wire x1="177.8" y1="175.26" x2="175.26" y2="175.26" width="0.1524" layer="91"/>
 <label x="175.26" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SO/IO1"/>
 </segment>
 </net>
 <net name="STORAGE_MOSI" class="0">
@@ -13683,9 +13675,9 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <label x="30.48" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="SI/IO0"/>
 <wire x1="177.8" y1="170.18" x2="175.26" y2="170.18" width="0.1524" layer="91"/>
 <label x="175.26" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SI/IO0"/>
 </segment>
 </net>
 <net name="STORAGE_CS" class="0">
@@ -13695,9 +13687,9 @@ Source: &lt;a href="https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3
 <label x="30.48" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="!CS!"/>
 <wire x1="177.8" y1="177.8" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
 <label x="175.26" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="!CS!"/>
 </segment>
 </net>
 <net name="5V" class="0">
