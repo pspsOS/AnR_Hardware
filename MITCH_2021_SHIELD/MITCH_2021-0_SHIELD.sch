@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -9287,9 +9287,9 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <instance part="GND12" gate="1" x="93.98" y="160.02" smashed="yes">
 <attribute name="VALUE" x="91.44" y="157.48" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="106.68" y="121.92" smashed="yes">
-<attribute name="NAME" x="123.19" y="129.54" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="123.19" y="127" size="1.778" layer="96" align="center-left"/>
+<instance part="J1" gate="G$1" x="106.68" y="116.84" smashed="yes" rot="MR180">
+<attribute name="NAME" x="123.19" y="109.22" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="VALUE" x="123.19" y="111.76" size="1.778" layer="96" rot="MR180" align="center-left"/>
 </instance>
 <instance part="GND7" gate="1" x="104.14" y="111.76" smashed="yes">
 <attribute name="VALUE" x="101.6" y="109.22" size="1.778" layer="96"/>
@@ -9462,10 +9462,10 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="106.68" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="116.84" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSORS_SCK" class="0">
@@ -9725,9 +9725,9 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <label x="111.76" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="121.92" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
-<label x="104.14" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="101.6" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="101.6" y1="121.92" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L2" class="0">
