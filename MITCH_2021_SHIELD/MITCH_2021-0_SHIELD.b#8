@@ -196,6 +196,18 @@
 BABYSITTER</text>
 <text x="-11.43" y="-40.64" size="1.778" layer="26" rot="MR0">IMU</text>
 <text x="15.24" y="-33.02" size="1.778" layer="26" rot="MR270">BAROMETER</text>
+<text x="27.94" y="40.64" size="1.27" layer="25" align="center-right">GND</text>
+<text x="27.94" y="38.1" size="1.27" layer="25" align="center-right">5V</text>
+<text x="27.94" y="35.56" size="1.27" layer="25" align="center-right">ALA_STATUS</text>
+<text x="27.94" y="33.02" size="1.27" layer="25" align="center-right">ALA_ST</text>
+<text x="27.94" y="30.48" size="1.27" layer="25" align="center-right">ALA_REF</text>
+<text x="27.94" y="27.94" size="1.27" layer="25" align="center-right">ALA_MEAS</text>
+<text x="27.94" y="40.64" size="1.27" layer="26" rot="MR0" align="center-left">GND</text>
+<text x="27.94" y="38.1" size="1.27" layer="26" rot="MR0" align="center-left">5V</text>
+<text x="27.94" y="35.56" size="1.27" layer="26" rot="MR0" align="center-left">ALA_STATUS</text>
+<text x="27.94" y="33.02" size="1.27" layer="26" rot="MR0" align="center-left">ALA_ST</text>
+<text x="27.94" y="30.48" size="1.27" layer="26" rot="MR0" align="center-left">ALA_REF</text>
+<text x="27.94" y="27.94" size="1.27" layer="26" rot="MR0" align="center-left">ALA_MEAS</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

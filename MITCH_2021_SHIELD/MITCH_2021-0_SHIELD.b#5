@@ -202,12 +202,12 @@ BABYSITTER</text>
 <text x="27.94" y="33.02" size="1.27" layer="25" align="center-right">ALA_ST</text>
 <text x="27.94" y="30.48" size="1.27" layer="25" align="center-right">ALA_REF</text>
 <text x="27.94" y="27.94" size="1.27" layer="25" align="center-right">ALA_MEAS</text>
-<text x="27.94" y="40.64" size="1.27" layer="26" rot="MR0" align="center-left">GND</text>
-<text x="27.94" y="38.1" size="1.27" layer="26" rot="MR0" align="center-left">5V</text>
-<text x="27.94" y="35.56" size="1.27" layer="26" rot="MR0" align="center-left">ALA_STATUS</text>
-<text x="27.94" y="33.02" size="1.27" layer="26" rot="MR0" align="center-left">ALA_ST</text>
-<text x="27.94" y="30.48" size="1.27" layer="26" rot="MR0" align="center-left">ALA_REF</text>
-<text x="27.94" y="27.94" size="1.27" layer="26" rot="MR0" align="center-left">ALA_MEAS</text>
+<text x="26.67" y="40.64" size="1.27" layer="26" rot="MR0" align="center-left">GND</text>
+<text x="26.67" y="38.1" size="1.27" layer="26" rot="MR0" align="center-left">5V</text>
+<text x="26.67" y="35.56" size="1.27" layer="26" rot="MR0" align="center-left">ALA_STATUS</text>
+<text x="26.67" y="33.02" size="1.27" layer="26" rot="MR0" align="center-left">ALA_ST</text>
+<text x="26.67" y="30.48" size="1.27" layer="26" rot="MR0" align="center-left">ALA_REF</text>
+<text x="26.67" y="27.94" size="1.27" layer="26" rot="MR0" align="center-left">ALA_MEAS</text>
 <text x="-25.4" y="41.91" size="1.27" layer="25" align="center-left">VBS</text>
 <text x="-25.4" y="39.37" size="1.27" layer="25" align="center-left">VBS_SWITCH</text>
 <text x="-25.4" y="36.83" size="1.27" layer="25" align="center-left">GND</text>
@@ -2064,14 +2064,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-21.59" y="5.255" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-21.59" y="12.525" size="1.27" layer="28" rot="MR180" align="top-center"/>
 </element>
-<element name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2061" package3d_urn="urn:adsk.eagle:package:8078637/1" value="" x="30.48" y="34.29" smashed="yes" rot="R90">
-<attribute name="MF" value="MOLEX" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="22-23-2061" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="26.67" y="26.67" size="1.016" layer="25" ratio="10" rot="R90"/>
-<attribute name="OC_FARNELL" value="1462922" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="27C1933" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULARITY" value="6" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="35.56" y="26.67" size="1.016" layer="27" ratio="10" rot="R90"/>
+<element name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2061" package3d_urn="urn:adsk.eagle:package:8078637/1" value="" x="30.48" y="34.29" smashed="yes" rot="MR90">
+<attribute name="MF" value="MOLEX" x="30.48" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="22-23-2061" x="30.48" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="34.29" y="26.67" size="1.016" layer="26" ratio="10" rot="MR90"/>
+<attribute name="OC_FARNELL" value="1462922" x="30.48" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" value="27C1933" x="30.48" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULARITY" value="6" x="30.48" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="25.4" y="26.67" size="1.016" layer="28" ratio="10" rot="MR90"/>
 </element>
 <element name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" package="B3F-10XX" package3d_urn="urn:adsk.eagle:package:27496/1" value="" x="0" y="22.86" smashed="yes" rot="MR270">
 <attribute name="MF" value="" x="0" y="22.86" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2228,7 +2228,6 @@ design rules under a new name.</description>
 <wire x1="29.21" y1="2.54" x2="21.59" y2="10.16" width="1.016" layer="16"/>
 <wire x1="15.24" y1="10.16" x2="21.59" y2="10.16" width="1.016" layer="16"/>
 <contactref element="X1" pad="6"/>
-<wire x1="29.21" y1="40.64" x2="30.48" y2="40.64" width="1.016" layer="16"/>
 <contactref element="S1" pad="4"/>
 <wire x1="-17.78" y1="13.97" x2="-15.24" y2="11.43" width="1.016" layer="16"/>
 <wire x1="-15.24" y1="11.43" x2="-15.24" y2="5.08" width="1.016" layer="16"/>
@@ -2282,7 +2281,7 @@ design rules under a new name.</description>
 <wire x1="15.8496" y1="27.8384" x2="17.6041875" y2="27.8384" width="1.016" layer="16"/>
 <wire x1="17.6041875" y1="27.8384" x2="19.1516" y2="29.3858125" width="1.016" layer="16"/>
 <wire x1="19.1516" y1="29.3858125" x2="19.1516" y2="30.5816" width="1.016" layer="16"/>
-<wire x1="19.1516" y1="30.5816" x2="29.21" y2="40.64" width="1.016" layer="16"/>
+<wire x1="29.21" y1="40.64" x2="19.1516" y2="30.5816" width="1.016" layer="16"/>
 <wire x1="-20.32" y1="-29.21" x2="-20.32" y2="-26.35" width="1.016" layer="16"/>
 <wire x1="-20.32" y1="-26.35" x2="-16.51" y2="-22.54" width="1.016" layer="16"/>
 <wire x1="-20.32" y1="-44.45" x2="-3.81" y2="-44.45" width="1.016" layer="16"/>
@@ -2297,6 +2296,7 @@ design rules under a new name.</description>
 <wire x1="-17.78" y1="24.13" x2="-17.78" y2="13.97" width="1.016" layer="16"/>
 <wire x1="5.207" y1="-48.26" x2="23.1704125" y2="-30.2965875" width="1.016" layer="16"/>
 <wire x1="23.1704125" y1="-30.2965875" x2="24.13" y2="-30.2965875" width="1.016" layer="16"/>
+<wire x1="30.48" y1="40.64" x2="29.21" y2="40.64" width="0.1524" layer="16"/>
 </signal>
 <signal name="SENSORS_SCK">
 <contactref element="U3" pad="SCL"/>
@@ -2467,7 +2467,6 @@ design rules under a new name.</description>
 <wire x1="20.32" y1="-17.78" x2="29.21" y2="-17.78" width="1.016" layer="1"/>
 <wire x1="-1.27" y1="-15.24" x2="1.27" y2="-17.78" width="1.016" layer="1"/>
 <contactref element="X1" pad="5"/>
-<wire x1="30.48" y1="38.1" x2="29.21" y2="38.1" width="1.016" layer="1"/>
 <wire x1="29.21" y1="38.1" x2="20.32" y2="29.21" width="1.016" layer="1"/>
 <wire x1="20.32" y1="29.21" x2="20.32" y2="-17.78" width="1.016" layer="1"/>
 <polygon width="0.254" layer="1" thermals="no">
@@ -2489,34 +2488,37 @@ design rules under a new name.</description>
 <vertex x="-1.27" y="-15.24"/>
 <vertex x="-3.937" y="-15.24"/>
 </polygon>
+<wire x1="30.48" y1="38.1" x2="29.21" y2="38.1" width="1.016" layer="1"/>
 </signal>
 <signal name="ALA_MEAS">
 <contactref element="U1" pad="CN7_38"/>
 <contactref element="X1" pad="1"/>
 <wire x1="29.21" y1="22.86" x2="29.21" y2="26.67" width="1.016" layer="1"/>
-<wire x1="29.21" y1="26.67" x2="30.48" y2="27.94" width="1.016" layer="1"/>
+<wire x1="29.21" y1="26.67" x2="30.48" y2="27.94" width="1.016" layer="16"/>
+<via x="29.21" y="26.67" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="ALA_REF">
 <contactref element="U1" pad="CN7_36"/>
 <contactref element="X1" pad="2"/>
 <wire x1="26.67" y1="22.86" x2="29.21" y2="20.32" width="1.016" layer="1"/>
-<wire x1="30.48" y1="30.48" x2="29.21" y2="30.48" width="1.016" layer="1"/>
+<wire x1="30.48" y1="30.48" x2="29.21" y2="30.48" width="1.016" layer="16"/>
 <wire x1="29.21" y1="30.48" x2="26.67" y2="27.94" width="1.016" layer="1"/>
 <wire x1="26.67" y1="27.94" x2="26.67" y2="22.86" width="1.016" layer="1"/>
+<via x="29.21" y="30.48" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="ALA_STATUS">
 <contactref element="U1" pad="CN7_35"/>
 <contactref element="X1" pad="4"/>
 <wire x1="31.75" y1="20.32" x2="34.29" y2="22.86" width="0.254" layer="1"/>
-<wire x1="34.29" y1="31.75" x2="30.48" y2="35.56" width="0.254" layer="1"/>
-<wire x1="34.29" y1="22.86" x2="34.29" y2="31.75" width="0.254" layer="1"/>
+<wire x1="34.29" y1="31.75" x2="34.29" y2="22.86" width="0.254" layer="1"/>
+<wire x1="30.48" y1="35.56" x2="34.29" y2="31.75" width="0.254" layer="1"/>
 </signal>
 <signal name="ALA_ST">
 <contactref element="U1" pad="CN7_37"/>
 <contactref element="X1" pad="3"/>
-<wire x1="30.48" y1="33.02" x2="33.02" y2="30.48" width="0.254" layer="1"/>
 <wire x1="33.02" y1="24.13" x2="31.75" y2="22.86" width="0.254" layer="1"/>
 <wire x1="33.02" y1="30.48" x2="33.02" y2="24.13" width="0.254" layer="1"/>
+<wire x1="30.48" y1="33.02" x2="33.02" y2="30.48" width="0.254" layer="1"/>
 </signal>
 <signal name="VBS">
 <contactref element="U5" pad="VOUT"/>

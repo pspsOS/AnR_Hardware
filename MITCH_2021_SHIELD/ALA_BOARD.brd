@@ -184,10 +184,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="25.4" y2="0" width="0" layer="20"/>
-<wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0" layer="20"/>
-<wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0" layer="20"/>
-<wire x1="0" y1="25.4" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="-1.27" y1="-1.27" x2="26.67" y2="-1.27" width="0" layer="20"/>
+<wire x1="26.67" y1="-1.27" x2="26.67" y2="26.67" width="0" layer="20"/>
+<wire x1="26.67" y1="26.67" x2="-1.27" y2="26.67" width="0" layer="20"/>
+<wire x1="-1.27" y1="26.67" x2="-1.27" y2="-1.27" width="0" layer="20"/>
 <wire x1="10.16" y1="19.685" x2="10.16" y2="18.415" width="0.254" layer="21"/>
 <wire x1="14.224" y1="19.685" x2="14.224" y2="18.415" width="0.254" layer="21"/>
 <wire x1="10.16" y1="17.653" x2="10.16" y2="16.383" width="0.254" layer="21"/>
@@ -1716,12 +1716,12 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,1,521552b334a53403"/>
-<approved hash="19,1,1c3d1be5fa03fddb"/>
-<approved hash="19,1,3aa63812067404c0"/>
-<approved hash="19,1,561b578d319b300d"/>
 <approved hash="19,1,561b52853493300d"/>
-<approved hash="19,1,1f9d101df1fbfe7b"/>
+<approved hash="19,1,3a1a3be20584047c"/>
+<approved hash="19,1,581d5a633c753e0b"/>
+<approved hash="19,1,38783e2482c2849e"/>
+<approved hash="19,1,566b59e93fff307d"/>
+<approved hash="19,1,38003a6c868a84e6"/>
 </errors>
 </board>
 </drawing>

@@ -214,6 +214,8 @@ BABYSITTER</text>
 <text x="-25.4" y="41.91" size="1.27" layer="26" rot="MR0" align="center-right">VBS</text>
 <text x="-25.4" y="39.37" size="1.27" layer="26" rot="MR0" align="center-right">VBS_SWITCH</text>
 <text x="-25.4" y="36.83" size="1.27" layer="26" rot="MR0" align="center-right">GND</text>
+<text x="-3.81" y="21.59" size="1.27" layer="26" rot="MR180" align="center-right">CHARGE
+ENABLE</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

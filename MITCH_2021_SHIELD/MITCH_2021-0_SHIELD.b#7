@@ -208,6 +208,12 @@ BABYSITTER</text>
 <text x="27.94" y="33.02" size="1.27" layer="26" rot="MR0" align="center-left">ALA_ST</text>
 <text x="27.94" y="30.48" size="1.27" layer="26" rot="MR0" align="center-left">ALA_REF</text>
 <text x="27.94" y="27.94" size="1.27" layer="26" rot="MR0" align="center-left">ALA_MEAS</text>
+<text x="-25.4" y="41.91" size="1.27" layer="25" align="center-left">VBS</text>
+<text x="-25.4" y="39.37" size="1.27" layer="25" align="center-left">VBS_SWITCH</text>
+<text x="-25.4" y="36.83" size="1.27" layer="25" align="center-left">GND</text>
+<text x="-25.4" y="41.91" size="1.27" layer="26" rot="MR0" align="center-right">VBS</text>
+<text x="-25.4" y="39.37" size="1.27" layer="26" rot="MR0" align="center-right">VBS_SWITCH</text>
+<text x="-25.4" y="36.83" size="1.27" layer="26" rot="MR0" align="center-right">GND</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
